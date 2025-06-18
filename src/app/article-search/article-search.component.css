@@ -1,0 +1,67 @@
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.search-box {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  transition: border 0.3s ease;
+}
+
+.search-box:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.article {
+  background: white;
+  padding: 20px 25px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border-left: 5px solid #3498db;
+  transition: box-shadow 0.3s ease;
+}
+
+.article:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article h2 {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.date {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.article p {
+  line-height: 1.6;
+  color: #444;
+}
+
+mark {
+  background-color: #ffea00;
+  padding: 0 2px;
+  font-weight: bold;
+}

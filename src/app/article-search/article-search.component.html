@@ -1,0 +1,11 @@
+<div class="container">
+    <h1>Search</h1>
+    <input type="text" [(ngModel)]="searchTerm" placeholder="Search . . ." class="search-box"/>
+    <p>{{ filteredArticles.length }} posts were found.</p>
+
+    <div *ngFor="let article of filteredArticles" class="article">
+        <h2 [innerHTML]="highlight(article.title)"></h2>
+        <p class="date">{{ article.date }}</p>
+        <p [innerHTML]="highlight(article.content)"></p>
+    </div>
+</div>
